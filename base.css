@@ -51,24 +51,27 @@ a:active {
    [1] レイアウトに関する指定 */
 
 body {
-    font-size: 85%;
-    text-align: center;
-    font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
-    padding: 0;
-    margin: 0;
-    background: #9c3 url(img/back_blue.jpg) repeat-y 50% 0;
+
+  font-size: 85%;
+  text-align: center;
+  font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+  padding: 0;
+  margin: 0;
+background: #9c3 url(img/back_green2.jpg) repeat-y 50% 0;
+
 }
 
 #wrapper {
-    text-align: left;
-    width: 700px;
-    margin: 0 auto;
+  text-align: left;
+  width: 400px;
+  margin: 0 auto;
 }
 
 #contents {
-    width: 480px;
-    float: left;
-    padding: 10px 10px 0;
+
+  width: 380px;
+  float: left;
+  padding: 10px 10px 0;
 }
 
 
@@ -241,4 +244,15 @@ h6 {
   text-decoration: none;
   color: #cc9;
 }
+
 */
+/*メニューバー*/
+.container {
+  display: flex;
+}
+.item{
+    width:55%;
+    background-color: azure;
+    border: 2px dotted;
+    text-align: center;
+}
