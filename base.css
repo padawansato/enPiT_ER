@@ -55,7 +55,7 @@ background: #9c3 url(img/back_green2.jpg) repeat-y 50% 0;
 
 
 #contents {
-  width: 350px;
+  width: 380px;
   float: left;
   padding: 10px 10px 0;
 }
@@ -190,8 +190,8 @@ h3,h4,h5,h6 { margin-top: 3em; }
   display: flex;
 }
 .item{
-    width:20%;
+    width:55%;
     background-color: azure;
     border: 2px dotted;
-    
+    text-align: center;
 }
