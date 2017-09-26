@@ -259,3 +259,10 @@ h6 {
     border: 2px dotted;
     text-align: center;
 }
+/*晒すボタン*/
+.sarasu{
+    margin-top: 10px;
+    margin-left: 75%;
+    width: 25%;
+    height : 30px;
+}
