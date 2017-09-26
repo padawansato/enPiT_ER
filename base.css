@@ -43,7 +43,8 @@ body {
   font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
   padding: 0;
   margin: 0;
-  background: #9c3 url(img/bg-body.jpg) repeat-y 50% 0;
+  /*background: #9c3 url(img/bg-body.jpg) repeat-y 50% 0;*/
+  background: #9c3;
 }
 
 #wrapper {
@@ -51,6 +52,7 @@ body {
   width: 800px;
   margin: 0 auto;
 }
+
 
 #contents {
   width: 480px;
@@ -77,6 +79,7 @@ p {
   line-height: 1.5em;
   margin-bottom: 0.5em;
 }
+
 
 /* キーワード */
 h1 {
@@ -166,7 +169,7 @@ h3,h4,h5,h6 { margin-top: 3em; }
 /* -------------------------------------------------------------
    [5] CSSデザインサンプルリンク指定 */
 
-#cds {
+/*#cds {
   font-size: 80%;
   font-family: Geneva, Arial, Helvetica, sans-serif;
   text-align: right;
@@ -181,4 +184,4 @@ h3,h4,h5,h6 { margin-top: 3em; }
   text-decoration: none;
   color: #cc9;
 }
-
+*/
