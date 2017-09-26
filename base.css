@@ -1,4 +1,4 @@
-@charset "shift_jis";
+@charset "UTF-8";
 
 /* -------------------------------------------------------------
 
@@ -58,12 +58,14 @@ body {
   padding: 10px 10px 0;
 }
 
-#sidebar {
+/*#sidebar {
   width: 200px;
   float: right;
   padding: 350px 20px 0;
   background: url(img/bg-sidebar.jpg) no-repeat 50% 20px;
 }
+
+*/
 
 #footer { padding: 40px 0 10px; }
 
@@ -179,3 +181,4 @@ h3,h4,h5,h6 { margin-top: 3em; }
   text-decoration: none;
   color: #cc9;
 }
+
