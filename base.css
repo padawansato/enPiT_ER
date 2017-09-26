@@ -49,13 +49,13 @@ background: #9c3 url(img/back_green2.jpg) repeat-y 50% 0;
 
 #wrapper {
   text-align: left;
-  width: 700px;
+  width: 400px;
   margin: 0 auto;
 }
 
 
 #contents {
-  width: 480px;
+  width: 350px;
   float: left;
   padding: 10px 10px 0;
 }
