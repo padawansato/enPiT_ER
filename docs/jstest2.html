@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="ja" xmlns:og="http://ogp.me/ns#" xmlns:mixi="http://mixi-platform.com/ns#" xmlns:fb="http://www.facebook.com/2008/fbml">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="あなたの残り物を管理するツール">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge,chrome=1">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="残り物を管理するツール">
+    <meta name="twitter:description" content="enpitER班の作成しているツールです">
+    <title>冷蔵庫.com</title>
+    <script type="text/javascript" language="javascript">
+      function _delete_element(){
+          var dom_obj = document.getElementById("removeid");
+          var dom_obj_parent = dom_obj.parentNode;
+          dom_obj_parent.removeChild(dom_obj);
+      }
+      function onButtonClick() {
+        check1 = document.form1.Checkbox1.checked;
+        check2 = document.form1.Checkbox2.checked;
+        check3 = document.form1.Checkbox3.checked;
+        check4 = document.form1.Checkbox4.checked;
+        check5 = document.form1.Checkbox5.checked;
+        check6 = document.form1.Checkbox6.checked;
+        check7 = document.form1.Checkbox7.checked;
+        check8 = document.form1.Checkbox8.checked;
+        check9 = document.form1.Checkbox9.checked;
+
+        target = document.getElementById("output");
+
+
+        if (check1 == '0') {
+          target.innerHTML += "牛肉が残ってます。<br/>";
+        }else if (true) {
+          foods = document.getElementById("chois");
+          foods.parentNode.removeChild(foods);
+        }
+        if (check2 == '0') {
+          target.innerHTML += "キムチが残ってます。<br/>";
+        }else if (true) {
+          foods = document.getElementById("chois");
+          foods.parentNode.removeChild(foods);
+        }
+        if (check3 == '0') {
+          target.innerHTML += "白菜が残ってます。<br/>";
+        }else if (true) {
+          foods = document.getElementById("chois");
+          foods.parentNode.removeChild(foods);
+        }
+        if (check4 == '0') {
+          target.innerHTML += "豚肉が残ってます。<br/>";
+        }else if (true) {
+          foods = document.getElementById("chois");
+          foods.parentNode.removeChild(foods);
+        }
+        if (check5 == '0') {
+          target.innerHTML += "豆腐が残ってます。<br/>";
+        }else if (true) {
+          foods = document.getElementById("chois");
+          foods.parentNode.removeChild(foods);
+        }
+        if (check6 == '0') {
+          target.innerHTML += "きのこが残ってます。<br/>";
+          foods = document.getElementById("chois");
+          foods.parentNode.removeChild(foods);
+        }
+        if (check7 == '0') {
+          target.innerHTML += "鶏肉が残ってます。<br/>";
+        }else if (true) {
+          foods = document.getElementById("chois");
+          foods.parentNode.removeChild(foods);
+        }
+        if (check8 == '0') {
+          target.innerHTML += "長ネギが残ってます。<br/>";
+        }else if (true) {
+          foods = document.getElementById("chois");
+          foods.parentNode.removeChild(foods);
+        }
+        if (check9 == '0') {
+          target.innerHTML += "大根が残ってます。<br/>";
+        }else if (true) {
+          foods = document.getElementById("chois");
+          foods.parentNode.removeChild(foods);
+        }
+      }
+    </script>
+</head>
+<body>
+  <form name="form1" action="">
+    <div id="chois">
+        <p>食べきったものを選択してください</p>
+        <div id="beef">
+            <li>牛肉</li>
+            <div class="form-inline">
+                <input id="Checkbox1" type="radio" name="q1" value="1"><label class="checkbox-inline">Yes</label>
+                <input id="Checkbox1no" type="radio" name="q1" value="0"><label class="checkbox-inline">No</label>
+            </div>
+        </div>
+
+        <div id="kimchi">
+            <li>キムチ</li>
+            <div class="form-inline">
+                <input id="Checkbox2" type="radio" name="q2" value="1"><label class="checkbox-inline">Yes</label>
+                <input id="Checkbox2no" type="radio" name="q2" value="0"><label class="checkbox-inline">No</label>
+            </div>
+        </div>
+
+        <div id="cabbage">
+            <li>白菜</li>
+            <div class="form-inline">
+                <input id="Checkbox3" type="radio" name="q3" value="1"><label class="checkbox-inline">Yes</label>
+                <input id="Checkbox3no" type="radio" name="q3" value="0"><label class="checkbox-inline">No</label>
+            </div>
+        </div>
+
+        <div id="pork">
+            <li>豚肉</li>
+            <div class="form-inline">
+                <input id="Checkbox4" type="radio" name="q4" value="1"><label class="checkbox-inline">Yes</label>
+                <input id="Checkbox4no" type="radio" name="q4" value="0"><label class="checkbox-inline">No</label>
+            </div>
+        </div>
+
+        <div id="tofu">
+            <li>豆腐</li>
+            <div class="form-inline">
+                <input id="Checkbox5" type="radio" name="q5" value="1"><label class="checkbox-inline">Yes</label>
+                <input id="Checkbox5no" type="radio" name="q5" value="0"><label class="checkbox-inline">No</label>
+            </div>
+        </div>
+
+        <div id="mushroom">
+            <li>きのこ</li>
+            <div class="form-inline">
+                <input id="Checkbox6" type="radio" name="q6" value="1"><label class="checkbox-inline">Yes</label>
+                <input id="Checkbox6no" type="radio" name="q6" value="0"><label class="checkbox-inline">No</label>
+            </div>
+        </div>
+
+        <div id="chicken">
+            <li>鶏肉</li>
+            <div class="form-inline">
+                <input id="Checkbox7" type="radio" name="q7" value="1"><label class="checkbox-inline">Yes</label>
+                <input id="Checkbox7no" type="radio" name="q7" value="0"><label class="checkbox-inline">No</label>
+            </div>
+        </div>
+
+        <div id="naganegi">
+            <li>長ネギ</li>
+            <div class="form-inline">
+                <input id="Checkbox8" type="radio" name="q8" value="1"><label class="checkbox-inline">Yes</label>
+                <input id="Checkbox8no" type="radio" name="q8" value="0"><label class="checkbox-inline">No</label>
+            </div>
+        </div>
+
+        <div id="daikon">
+            <li>大根</li>
+            <div class="form-inline">
+                <input id="Checkbox9" type="radio" name="q9" value="1"><label class="checkbox-inline">Yes</label>
+                <input id="Checkbox9no" type="radio" name="q9" value="0"><label class="checkbox-inline">No</label>
+            </div>
+        </div>
+
+        <input type="button" value="Exec" onclick="onButtonClick();" />
+        </div>
+
+    </form>
+
+
+  <div id="output"></div>
+</body>
+</html>
