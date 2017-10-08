@@ -11,11 +11,7 @@
     <meta name="twitter:description" content="enpitER班の作成しているツールです">
     <title>冷蔵庫.com</title>
     <script type="text/javascript" language="javascript">
-      function _delete_element(){
-          var dom_obj = document.getElementById("removeid");
-          var dom_obj_parent = dom_obj.parentNode;
-          dom_obj_parent.removeChild(dom_obj);
-      }
+
       function onButtonClick() {
         check1 = document.form1.Checkbox1.checked;
         check2 = document.form1.Checkbox2.checked;
@@ -29,57 +25,57 @@
 
         target = document.getElementById("output");
 
-
-        if (check1 == '0') {
+        if (check1 === false) {
           target.innerHTML += "牛肉が残ってます。<br/>";
-        }else if (true) {
+        }else {
           foods = document.getElementById("beef");
           foods.parentNode.removeChild(foods);
         }
-        if (check2 == '0') {
+        if (check2 === false) {
           target.innerHTML += "キムチが残ってます。<br/>";
-        }else if (true) {
+        }else {
           foods = document.getElementById("kimchi");
           foods.parentNode.removeChild(foods);
         }
-        if (check3 == '0') {
+        if (check3 === false) {
           target.innerHTML += "白菜が残ってます。<br/>";
-        }else if (true) {
-          foods = document.getElementById("cabbege");
+        }else {
+          foods = document.getElementById("cabbage");
           foods.parentNode.removeChild(foods);
         }
-        if (check4 == '0') {
+        if (check4 === false) {
           target.innerHTML += "豚肉が残ってます。<br/>";
-        }else if (true) {
+        }else {
           foods = document.getElementById("pork");
           foods.parentNode.removeChild(foods);
         }
-        if (check5 == '0') {
+        if (check5 === false) {
           target.innerHTML += "豆腐が残ってます。<br/>";
-        }else if (true) {
+        }else {
           foods = document.getElementById("tofu");
           foods.parentNode.removeChild(foods);
         }
-        if (check6 == '0') {
+        if (check6 === false) {
           target.innerHTML += "きのこが残ってます。<br/>";
+        }else {
           foods = document.getElementById("mushroom");
           foods.parentNode.removeChild(foods);
         }
-        if (check7 == '0') {
+        if (check7 === false) {
           target.innerHTML += "鶏肉が残ってます。<br/>";
-        }else if (true) {
-          foods = document.getElementById("chicken");
+        }else {
+          foods = document.getElementById("chiken");
           foods.parentNode.removeChild(foods);
         }
-        if (check8 == '0') {
+        if (check8 === false) {
           target.innerHTML += "長ネギが残ってます。<br/>";
-        }else if (true) {
+        }else {
           foods = document.getElementById("naganegi");
           foods.parentNode.removeChild(foods);
         }
-        if (check9 == '0') {
+        if (check9 === false) {
           target.innerHTML += "大根が残ってます。<br/>";
-        }else if (true) {
+        }else {
           foods = document.getElementById("daikon");
           foods.parentNode.removeChild(foods);
         }
@@ -87,9 +83,9 @@
     </script>
 </head>
 <body>
-  <p>食べきったものを選択してください</p>
   <form name="form1" action="">
     <div id="chois">
+        <p>食べきったものを選択してください</p>
         <div id="beef">
             <li>牛肉</li>
             <div class="form-inline">
