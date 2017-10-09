@@ -11,7 +11,11 @@
     <meta name="twitter:description" content="enpitER班の作成しているツールです">
     <title>冷蔵庫.com</title>
     <script type="text/javascript" language="javascript">
-
+      function _delete_element(){
+          var dom_obj = document.getElementById("removeid");
+          var dom_obj_parent = dom_obj.parentNode;
+          dom_obj_parent.removeChild(dom_obj);
+      }
       function onButtonClick() {
         check1 = document.form1.Checkbox1.checked;
         check2 = document.form1.Checkbox2.checked;
@@ -24,62 +28,35 @@
         check9 = document.form1.Checkbox9.checked;
 
         target = document.getElementById("output");
-
-        if (check1 === false) {
+        if (check1 == '0') {
           target.innerHTML += "牛肉が残ってます。<br/>";
-        }else {
-          let foods = document.getElementById("beef");
-          foods.parentNode.removeChild(foods);
         }
-        if (check2 === false) {
+        if (check2 == '0') {
           target.innerHTML += "キムチが残ってます。<br/>";
-        }else {
-          let foods = document.getElementById("kimchi");
-          foods.parentNode.removeChild(foods);
         }
-        if (check3 === false) {
+        if (check3 == '0') {
           target.innerHTML += "白菜が残ってます。<br/>";
-        }else {
-          let foods = document.getElementById("cabbage");
-          foods.parentNode.removeChild(foods);
         }
-        if (check4 === false) {
+        if (check4 == '0') {
           target.innerHTML += "豚肉が残ってます。<br/>";
-        }else {
-          let foods = document.getElementById("pork");
-          foods.parentNode.removeChild(foods);
         }
-        if (check5 === false) {
+        if (check5 == '0') {
           target.innerHTML += "豆腐が残ってます。<br/>";
-        }else {
-          let foods = document.getElementById("tofu");
-          foods.parentNode.removeChild(foods);
         }
-        if (check6 === false) {
+        if (check6 == '0') {
           target.innerHTML += "きのこが残ってます。<br/>";
-        }else {
-          let foods = document.getElementById("mushroom");
-          foods.parentNode.removeChild(foods);
         }
-        if (check7 === false) {
+        if (check7 == '0') {
           target.innerHTML += "鶏肉が残ってます。<br/>";
-        }else {
-            // タイポ警察
-          let foods = document.getElementById("chicken");
-          foods.parentNode.removeChild(foods);
         }
-        if (check8 === false) {
+        if (check8 == '0') {
           target.innerHTML += "長ネギが残ってます。<br/>";
-        }else {
-          let foods = document.getElementById("naganegi");
-          foods.parentNode.removeChild(foods);
         }
-        if (check9 === false) {
+        if (check9 == '0') {
           target.innerHTML += "大根が残ってます。<br/>";
-        }else {
-          let foods = document.getElementById("daikon");
-          foods.parentNode.removeChild(foods);
         }
+        foods = document.getElementById("chois");
+        foods.parentNode.removeChild(foods);
       }
     </script>
 </head>
