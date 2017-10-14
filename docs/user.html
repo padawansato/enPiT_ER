@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ja" xmlns:og="http://ogp.me/ns#" xmlns:mixi="http://mixi-platform.com/ns#" xmlns:fb="http://www.facebook.com/2008/fbml">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="あなたの残り物を管理するツール">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge,chrome=1">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="残り物を管理するツール">
+    <meta name="twitter:description" content="enpitER班の作成しているツールです">
+    <title>冷蔵庫.com</title>
+    <script type="text/javascript" language="javascript">
+
+     function recipeClick(){
+	 document.getElementById("recipe").innerHTML = '<a href="recipe.html">おすすめレシピを見る！</a>';
+     }
+
+    </script>
+</head>
+<body>
+  <form name="form" action="">
+    <div id="Users">
+        <p>一緒に食べたい人を選んでください</p>
+        
+        <input id="Checkbox1" type="checkbox"><label for="checkbox1">アブラナシヤサイカラメマシニンニクスクナメ次郎君</label><br/>
+        <input id="Checkbox2" type="checkbox"><label for="checkbox2">はらぺこアオムシ</label><br/>
+        <input id="Checkbox3" type="checkbox"><label for="checkbox3">Lineのわけのわからんグループ会話まじでで消えろ</label><br/>
+
+        <input type="button" value="おすすめレシピを見る！" onclick="location.href='recipe.html'" />
+        </div>
+
+    </form>
+
+  <div id="recipe"></div>
+  
+</body>
+</html>
