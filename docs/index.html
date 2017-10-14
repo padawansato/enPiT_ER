@@ -12,49 +12,47 @@
     <title>冷蔵庫.com</title>
     <script type="text/javascript" language="javascript">
 
-     function onButtonClick() {
-
-         check1 = document.form1.Checkbox1.checked;
-         check2 = document.form1.Checkbox2.checked;
-         check3 = document.form1.Checkbox3.checked;
-         check4 = document.form1.Checkbox4.checked;
-         check5 = document.form1.Checkbox5.checked;
-         check6 = document.form1.Checkbox6.checked;
-         check7 = document.form1.Checkbox7.checked;
-         check8 = document.form1.Checkbox8.checked;
-         check9 = document.form1.Checkbox9.checked;
-
-         target = document.getElementById("output");
-         if (check1 == '0') {
-             target.innerHTML += "牛肉が残ってます。<br/>";
-         }
-         if (check2 === false) {
-             target.innerHTML += "キムチが残ってます。<br/>";
-         }
-         if (check3 === false) {
-             target.innerHTML += "白菜が残ってます。<br/>";
-         }
-         if (check4 === false) {
-             target.innerHTML += "豚肉が残ってます。<br/>";
-         }
-         if (check5 === false) {
-             target.innerHTML += "豆腐が残ってます。<br/>";
-         }
-         if (check6 === false) {
-             target.innerHTML += "きのこが残ってます。<br/>";
-         }
-         if (check7 === false) {
-             target.innerHTML += "鶏肉が残ってます。<br/>";
-         }
-         if (check8 === false) {
-             target.innerHTML += "長ネギが残ってます。<br/>";
-         }
-         if (check9 === false) {
-             target.innerHTML += "大根が残ってます。<br/>";
-         }
-         foods = document.getElementById("chois");
-         foods.parentNode.removeChild(foods);
-     }
+    function onButtonClick() {
+        check1 = document.form1.Checkbox1.checked;
+        check2 = document.form1.Checkbox2.checked;
+        check3 = document.form1.Checkbox3.checked;
+        check4 = document.form1.Checkbox4.checked;
+        check5 = document.form1.Checkbox5.checked;
+        check6 = document.form1.Checkbox6.checked;
+        check7 = document.form1.Checkbox7.checked;
+        check8 = document.form1.Checkbox8.checked;
+        check9 = document.form1.Checkbox9.checked;
+        target = document.getElementById("output");
+        if (check1 == '0') {
+            target.innerHTML += "牛肉が残ってます。<br/>";
+        }
+        if (check2 === false) {
+            target.innerHTML += "キムチが残ってます。<br/>";
+        }
+        if (check3 === false) {
+            target.innerHTML += "白菜が残ってます。<br/>";
+        }
+        if (check4 === false) {
+            target.innerHTML += "豚肉が残ってます。<br/>";
+        }
+        if (check5 === false) {
+            target.innerHTML += "豆腐が残ってます。<br/>";
+        }
+        if (check6 === false) {
+            target.innerHTML += "きのこが残ってます。<br/>";
+        }
+        if (check7 === false) {
+            target.innerHTML += "鶏肉が残ってます。<br/>";
+        }
+        if (check8 === false) {
+            target.innerHTML += "長ネギが残ってます。<br/>";
+        }
+        if (check9 === false) {
+            target.innerHTML += "大根が残ってます。<br/>";
+        }
+        foods = document.getElementById("chois");
+        foods.parentNode.removeChild(foods);
+    }
 
      function recipeClick(){
 	 document.getElementById("recipe").innerHTML = '<a href="recipe.html">おすすめレシピを見る！</a>';
